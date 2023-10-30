@@ -7,7 +7,7 @@
     </head>
    
     <body>
-        <p> Isto é um parágrafo</p>
+        <p> Isto é um <b> parágrafo</b> </p>
         
         <h1>Isto é um h1</h1>
         <h2>Isto é um h2</h2>
@@ -40,5 +40,69 @@
 
       <!-- ../ = volte/subir uma pasta; entrar em pastas adentro seguir com o mesmo comando "nomedapasta"/"nomedapasta"/img -->        
 
+      <p>A tag <b>b</b> e a tag <strong>strong</strong> passam relevância para uma determinada palavra ou parte de um texto  </p>   
+
+      <h2>Tabelas</h2>  
+      <table border= "1px">   
+          <tr>
+              <th>Nome</th>
+              <th>Idade</th>
+              <th>Nascimento</th>
+              <th>Cidade</th>
+          </tr>
+          <tr>
+              <td>Bruno</td>
+              <td>32</td>
+              <td>24/03/1991</td>
+              <td rowspan="2">Santos</td>
+          </tr>
+          <tr>  
+                <td>Anna</td>
+                <td>34</td>
+                <td>22/09/1989</td> 
+            </tr>
+            <tr>
+                <td colspan="4">Verifique os dados</td>
+            </tr>
+        </tr>
+      </table>  
+
+
+      <table border="1">
+          <tr>
+                <th>Marca</th>
+                <th>Modelo</th>
+                <th>Ano</th>
+                <th>Valor</th>
+          </tr>
+                <td>Volkswagen</td>
+                <td>Golf </td>
+                <td>2009</td>
+                <td>R$ 38.500</td>    
+          <tr>
+                <td>Fiat</td>
+                <td>Palio</td>
+                <td>2010</td>
+                <td>R$ 19.700</td>
+          </tr>
+          <tr>
+                <td>Honda</td>
+                <td>Civic</td>
+                <td>2012</td>
+                <td>R$ 61.500</td>
+            </tr>
+            <td colspan="4">O melhor preço da região</td>
+      </table>
+
+      <h2>Formulários</h2>
+
+      <form action="">
+          <label for="nome">Nome</label><br>
+          <input id="nome" type="text"><br><br>
+
+          <label for="">Idade</label><br>
+          <input type="number">
+
+      </form>
     </body>
 </html>
